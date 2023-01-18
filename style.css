@@ -1,0 +1,24 @@
+body
+{
+    background-color: beige;
+}
+h1
+{
+    background-color: crimson;
+    color: aqua;
+    text-align: center;
+}
+p
+{
+    color: black;
+}
+button
+{
+    background-color: antiquewhite;
+    width: 15ex;
+    height: 10ex;
+    border-radius: 10%;
+    border-width: 1ex;
+    border-color: bisque;
+    font-size: 3ex;
+}

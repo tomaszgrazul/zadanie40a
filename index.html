@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie40</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wpisywanie danych z formularza na stronę</h1>
+    
+    <form>
+        <label for="imie">Imie:</label><br>
+        <input type="text" name="imie" id="imie"><br>
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
+        <label for="numertel">Numer telefonu:</label><br>
+        <input type="text" name="numertel" id="numertel"><br>
+    </form>
+    
+    <button>Wyświetl dane</button>
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
